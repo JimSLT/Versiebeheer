@@ -1,0 +1,555 @@
+.head {
+	background-color: #448CD4;
+	height: 13%;
+	width: 100%;
+	position: absolute;
+	left: 0em;
+	top: 0em;
+}
+
+.logo {
+	background-image: url(afbeeldingen/uTabletLogo1.png);
+	background-repeat: no-repeat;
+	width: 25%;
+	height: 13%;
+	position: absolute;
+	overflow: visible;
+}
+
+.nav {
+	background-color: #000033;
+	height: 5em;
+	display: inline-block;
+	line-height: 1.875em;
+	margin: 0 auto;
+	margin-top: 7.1875em;
+	text-align: center;
+	width: 90%;
+	margin-left: 14.0625em;
+	padding: 0;
+}
+
+.nav a:hover {
+	background-color: #6699FF;
+	color: #FFF;
+	text-decoration: none;
+	height: 5%;
+	transition: .5s;
+}
+
+.nav #productenlijst a:hover {
+	background-color: #6699FF;
+	color: #FFF;
+	text-decoration: none;
+	height: 3.75em;
+	transition: .5s;
+}
+
+.nav ul ul {
+	display: none;
+	position: absolute;
+}
+
+.nav ul li:hover > ul {
+	display: inline-block;
+	position: absolute;
+}
+
+.nav ul > li ul {
+	left: -15.4375em;
+	height: 100%;
+	width: 50%;
+	margin: 0;
+	top: 5em;
+	padding: 0;
+	overflow: visible;
+}
+
+.nav #samsung, #apple, #lenovo {
+	background-color: #000033;
+	display: block;
+	position: relative;
+	z-index: 50;
+	margin-left: 80.5%;
+}
+
+.nav ul {
+	list-style: none;
+	margin: 0 auto;
+	margin-left: 5.625em;
+	position: absolute;
+	display: block;
+}
+
+.nav ul li {
+	display: inline;
+	height: 6.25em;
+	width: 9.375em;
+}
+
+.nav a:link {
+	color: #FFF;
+	display: inline-block;
+	height: 0.7142857142857143em;
+	padding: 0.11904761904761904em 2.380952380952381em;
+	text-decoration: none;
+}
+
+.nav #productenlijst a:link {
+	color: #FFF;
+	display: inline-block;
+	height: 1.875em;
+	padding: 0.3125em 6.25em;
+	width: 125%;
+	text-decoration: none;
+}
+
+.nav #productenlijst a:visited {
+	color: #FFF;
+}
+
+.nav a:visited {
+	color: #FFF;
+}
+
+.nav #home, #producten, #contact {
+	font-family: arial;
+	color: #FFFFFF;
+	font-size: 42;
+	line-height: 1.6666666666666667em;
+	height: 1.6666666666666667em;
+}
+
+.nav #producten {
+	width: 70%;
+	position: relative;
+	margin-left: -38.9%;
+}
+
+.nav #home {
+	width: 70%;
+	position: absolute;
+	margin-left: 100%;
+}
+
+.nav #contact {
+	width: 70%;
+	position: absolute;
+	margin-left: 165%;
+}
+
+.body {
+	overflow: hidden;
+}
+
+.menu {
+	background-color: #1F2021;
+	height: 100%;
+	width: 13%;
+	position: absolute;
+	left: 0em;
+	top: 13%;
+}
+
+.menu ul {
+	margin-top: 0em;
+	list-style: none;
+	padding: 1.875em;
+	margin-left: -1.25em;
+}
+
+.menu li {
+	margin-left: 1.875em;
+}
+
+.menu li a:link, a:visited {
+	text-decoration: none;
+	color: #FFF;
+	font-family: arial;
+	padding: 0.3125em;
+}
+
+.menu li a:hover {
+	background-color: #626364;
+	color: #FFF;
+	text-decoration: none;
+	padding: 0.3125em;
+	transition: .5s;
+}
+
+.menu #Menu {
+	font-family: arial;
+	color: #FFF;
+	margin-left: 25%;
+	margin-top: 0;
+	font-size: 30;
+}
+
+.menu #kortingen {
+	margin-left: 2.5em;
+	line-height: 10;
+}
+
+.menu #nieuw {
+	margin-left: 0.9375em;
+	line-height: 10;
+}
+
+.menu #populair {
+	margin-left: 0.625em;
+	line-height: 10;
+}
+
+.menu #inlog {
+	margin-left: 25%;
+	line-height: 10;
+}
+
+.menu #regist {
+	margin-left: 15%;
+	line-height: 0;
+}
+
+.topsection {
+	position: absolute;
+	width: 90%;
+	height: 100%;
+	margin-left: 13%;
+	z-index: 30;
+}
+
+.topsection #WELKOM {
+	font-size: 32;
+	font-family: calibri;
+	display: inline-block;
+	margin-left: 3%;
+}
+
+.topsection #wtekst {
+	font-family: calibri;
+	display: inline-block;
+	margin-left: 1em;
+}
+
+.topsection #ADRES {
+	position: absolute;
+	margin-top: -570px;
+	margin-left: 1300px;
+}
+
+.topsection #CONTACTGEGEVENS {
+	position: absolute;
+	margin-top: -560px;
+	margin-left: 900px;
+}
+
+.topsection #CONTACTTITEL {
+	margin-left: 50%;
+	margin-top: 2%;
+}
+.topsection #contactformulier {
+		margin-left: 50%;
+}
+
+.topsection p {
+	margin-left: 50%;
+}
+
+.ENQUETE {
+	width: 50%;
+}
+
+.ENQUETE #verstuurknop {
+	position: absolute;
+	margin-top: 1.6%;
+}
+
+.topsection #TABLET1 {
+	position: relative;
+	width: 600px;
+	height: 400px;
+	top: 100px;
+}
+
+.topsection #TABLET2 {
+	position: relative;
+	width: 300px;
+	height: 400px;
+	top: 100px;
+}
+
+.footsection {
+	z-index: 20;
+}
+
+.footer {
+	display: inline-block;
+	background-color: #1F2021;
+	height: 100%;
+	width: 90%;
+	margin-left: 14.0625em;
+	margin-top: 44.5em;
+	position: absolute;
+}
+
+/*Samsung*/
+
+#tab10 {
+	position: absolute;
+	top: 32%;
+	left: 20%;
+}
+
+#tab8 {
+	position: absolute;
+	top: 31.5%;
+	left: 51%;
+}
+
+#tab7 {
+	position: absolute;
+	top: 32%;
+	left: 76%;
+}
+
+#tab10tekst {
+	position: absolute;
+	top:71%;
+	left: 20%;
+	text-align: center;
+	font-family: verdana;
+}
+
+#tab8tekst {
+	position: absolute;
+	top: 71%;
+	left: 49%;
+	text-align: center;
+	font-family: verdana;
+}
+
+#tab7tekst {
+	position: absolute;
+	top: 71%;
+	left: 77%;
+	text-align: center;
+	font-family: verdana;
+}
+
+/*Einde Samsung*/
+
+/*Lenovo*/
+
+#Yoga img{
+	position: absolute;
+	top: 35%;
+	left: 17%;
+	height: 380px;
+	width: 380px;
+}
+
+/*Lenovo IdeaTab A8-50 - Blauw
+http://www.bol.com/nl/p/lenovo-ideatab-a8-50-blauw/9200000025481960/ */
+
+#Idea {
+	position: absolute;
+	top: 42%;
+	left: 42%;
+	transform: rotate(-90deg);
+
+}
+
+/*Lenovo TAB 2 A7-10 - Zwart
+http://www.bol.com/nl/p/lenovo-tab-2-a7-10-zwart/9200000040852379/ */
+
+#Tab img{
+	position: absolute;
+	top: 35%;
+	left: 75%;
+	height: 300px;
+	width: 200px;
+}
+
+#product_1 {
+	height: 15%;
+	width: 12%;
+	text-align: center-left;
+	position: absolute;
+	left: 17%;
+	top: 75%;
+	border: 1px solid #1f2021;
+}
+
+#product_2 {
+	height: 15%;
+	width: 10%;
+	text-align: center-left;
+	position: absolute;
+	left: 46%;
+	top: 75%;
+	border: 1px solid #1f2021;
+}
+
+#product_3 {
+	height: 13%;
+	width: 9%;
+	text-align: center-left;
+	position: absolute;
+	left: 76%;
+	top: 77%;
+	border: 1px solid #1f2021;
+}
+
+/*Einde Lenovo */
+
+/*Apple*/
+
+
+#foto {
+	height: 100px;
+	width: 100px;
+	position:absolute;
+	left: 18%;
+	top: 35%;
+}
+
+#foto_2{
+	height: 100px;
+	width: 100px;
+	position:absolute;
+	left: 45%;
+	top: 32%;
+}
+
+#foto_3{
+	height: 100px;
+	width: 100px;
+	position:absolute;
+	left: 72%;
+	top: 32%;
+}
+
+#product_1 {
+	text-align:center-left;
+	position:absolute;
+	left:19%;
+	top: 77%;
+	border:1px solid #1F2021;
+}
+
+#product_2 {
+	text-align:center-left;
+	position:absolute;
+	left:47%;
+	top: 77%;
+	border:1px solid #1F2021;
+}
+
+#product_3 {
+	text-align:center-left;
+	position:absolute;
+	left:75%;
+	top: 77%;
+	border:1px solid #1F2021;
+
+}
+
+p {
+	font-family:verdana;
+}
+
+/*Einde Apple*/
+
+/*Producten*/
+
+.topsection #samsungprod {
+	position: absolute;
+	height: 18.75em;
+	width: 25em;
+	margin-left: 5%;
+	margin-top: 4%;
+	border-radius: 20%;
+}
+
+.topsection #appleprod {
+	position: absolute;
+	height: 18.75em;
+	width: 25em;
+	margin-left: 35%;
+	margin-top: 4%;
+	border-radius: 20%;
+}
+
+.topsection #lenovoprod {
+	position: absolute;
+	height: 18.75em;
+	width: 25em;
+	margin-left: 65%;
+	margin-top: 4%;
+	border-radius: 20%;
+}
+
+#samsungtek {
+	position: absolute;
+	margin-top: 25%;
+	margin-left: 20%;
+	width: 18.75em;
+	border: 1px solid black;
+	border-radius: 10%;
+}
+
+#lenovotek {
+	position: absolute;
+ 	margin-top: 23%;
+ 	margin-left: 72%;
+	width: 18.75em;
+	border: 1px solid black;
+ 	border-radius: 10%;
+}
+
+#appletek {
+	position: absolute;
+	margin-top: 25%;
+	margin-left: 45%;
+	width: 18.75em;
+	border: 1px solid black;
+	border-radius: 10%;
+}
+
+/*Einde Producten */
+
+/*Contact*/
+
+#telefoon img {
+	position: absolute;
+	left: 55%;
+	top: 26%;
+	height: 250px;
+	width: 500px;
+	border-radius: 15px;
+	/*border: 1px solid black;*/
+}
+
+#skype img {
+	position: absolute;
+	left: 55%;
+	top: 60%;
+	height: 250px;
+	width: 500px;
+	border-radius: 15px;
+	/*border: 1px solid black;*/
+}
+
+#contactInfo {
+	font-size: 120%;
+	position: absolute;
+	left: 16%;
+	top: 25%;
+}
+
+#vet {
+	font-weight: bold;
+	font-size: 105%;
+}
+
+/* Einde Contact */
